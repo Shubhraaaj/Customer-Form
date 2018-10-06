@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+	.gender-form{
+		display: block;
+	}
+
+	.name-div{
+		margin: 0 0 4% 2%;
+	}
+
+	.age-div{
+		margin: 0 0 2% 2%;	
+	}
+
+	.gender-div{
+		margin: 0 0 2% 2%;		
+	}
+
+	.age-form{
+		margin: 0 0 2% 1%;			
+	}
+
+	.shopping-categories{
+		margin: 0 0 2% 2%;				
+	}
+
+	.discount-div{
+		margin: 0 0 2% 2%;					
+	}
+
+	.monthly-div{
+		margin: 0 0 2% 2%;						
+	}
+
+	.next-med-div{
+		margin: 0 0 2% 2%;						
+	}
+
+	.whatsapp-div{
+		margin: 0 0 2% 2%;							
+	}
+
+	.discount-input-box{
+		margin: 0 0 1% 2%;							
+	}
+
+	.number-input-box{
+		margin: 0 0 1% 2%;								
+	}
+
+	.date-input-box{
+		margin: 0 0 1% 2%;								
+	}
+
+}
+
+.title-bar-text{
+	background: #ff4747;
+	font-size: 150%;
+	color: white;
+	text-align: center;
+	padding: 0.5% 0 0.5% 0;
+}
+
+.question-line-text {
+	font-size: 120%;
+	color: #2e66af;
+	margin: 2%;
+	display: inline-block;
+}
+
+.input-box{
+	margin: 0 0 0 2%;
+	width: 70%;
+}
+
+.gender-line-text{
+	font-size: 120%;
+	color: #2e66af;
+	margin: 0 0 2% 2%;	
+	display: inline-block;
+}
+
+.gender-div{
+	display: block;
+	width: 100%;
+}
+
+.age-div{
+	display: block;
+	width: 100%;	
+}
+
+.gender-form{
+	display: inline-block;
+}
+
+.age-line-text{
+	font-size: 120%;
+	color: #2e66af;
+	margin: 0 4.7% 2% 2%;
+	display: inline-block;
+}
+
+.age-form{
+	display: -webkit-inline-box;
+}
+
+.category-line-text{
+	font-size: 120%;
+	color: #2e66af;
+	margin: 0 0 1% 2%;	
+}
+
+.category-checkbox{
+	margin: 0 0 1% 2%;		
+}
+
+.discount-input-box{
+	width: 15%;
+}
+
+.number-input-box{
+	width: 40%;
+}
+
+.button-div{
+	text-align: center;
+	margin: 4% 0 2% 0;
+}
+
+.submit-button{
+	background: green;
+	color: white;
+	padding: 1% 8% 1% 8%;
+}
+
+.age-radio{
+	display: block;
+}
+
+.date-input-box{
+	width: 35%;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>Cashlu Enterprises</title>
+</head>
+<body>
+	<div class="title-bar">
+		<p class="title-bar-text">CASHLU FORM</p>
+	</div>
+	<form class="form-body" method="post" action="completed">
+		<div class="name-div">
+			<p class="question-line-text">Customer Name</p>
+			<input id="name-box" class="input-box" type="text" name="customer_name">
+		</div>
+		<div class="gender-div">
+			<p class="gender-line-text">Gender</p>
+			<div class="gender-form">
+			  <input type="radio" name="gender" value="Male" checked> Male
+			  <input type="radio" name="gender" value="Female"> Female
+			  <input type="radio" name="gender" value="Other"> Other  
+			</div>
+		</div>
+		<div class="age-div">
+			<p class="age-line-text">Age Group</p>
+			<div class="age-form">
+			  <input type="radio" class="age-radio" name="age" value="15-21" checked> 15 - 21
+			  <input type="radio" class="age-radio" name="age" value="22-30"> 22 - 30
+			  <input type="radio" class="age-radio" name="age" value="31-45"> 31 - 45
+			  <input type="radio" class="age-radio" name="age" value="45 and Above"> 45 and Above
+			</div>
+		</div>
+		<div class="shopping-categories">
+			<p class="category-line-text">Your interested shopping categories are?</p>
+			<div id="medicine-checkbox">
+				<input type="checkbox" id="medicine-check" class="category-checkbox" name="categories[]" value="Medicines">
+				<span class="checkmark">Medicines</span><br>
+			</div>
+			<div id="flight-checkbox">
+				<input type="checkbox" id="flight-check" class="category-checkbox" name="categories[]" value="Flights and Hotels">
+				<span class="checkmark">Flights and Hotels</span><br>
+			</div>
+			<div id="cosmetics-checkbox">
+				<input type="checkbox" id="cosmetics-check" class="category-checkbox" name="categories[]" value="Cosmetics and Dialy needs">
+				<span class="checkmark">Cosmetics and Daily needs</span><br>
+			</div>
+			<div id="mobiles-checkbox">
+				<input type="checkbox" id="mobiles-check" class="category-checkbox" name="categories[]" value="Mobiles and Electronics">
+				<span class="checkmark">Mobiles and Electronics</span><br>
+			</div>
+		</div>
+		<div class="discount-div">
+			<p class="question-line-text">How much Discount you get in Medicines?</p>
+			<input id="discount-box" class="discount-input-box" type="number" name="discount">
+		</div>
+		<div class="monthly-div">
+			<p class="question-line-text">Monthy Medicine Requirement of Rs.</p>
+			<input id="monthly-box" class="discount-input-box" type="number" name="requirement">
+		</div>
+		<div class="next-med-div">
+			<p class="question-line-text">Next Medicine Requirement on </p>
+			<input id="next-med-box" class="date-input-box" type="date" name="nextReq" min="2018-09-01" max="2020-01-01">
+		</div>
+		<div class="whatsapp-div">
+			<p class="question-line-text">Please share your WhatsApp Number</p>
+			<input id="whatsapp-box" class="number-input-box" type="text" name="whatsapp">
+		</div>
+		<div class="button-div">
+			<button type="submit"  id="submit-btn" class="submit-button">SUBMIT</button>
+		</div>
+	</form>
+	<script src="./js/jquery-3.3.1.js"></script>
+	<script src="./js/customer_form.js"></script>
+</body>
+</html>

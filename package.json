@@ -1,0 +1,23 @@
+{
+  "name": "customer-form",
+  "version": "1.0.0",
+  "description": "Customer form for Sabse Sasta Dukaan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "shubhraj",
+    "sabse",
+    "sasta",
+    "dukaan",
+    "express",
+    "node"
+  ],
+  "author": "SHUBHRAJ PRASAD SINGH",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
